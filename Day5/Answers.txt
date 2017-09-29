@@ -1,0 +1,8 @@
+	When and why we will use Threads in our programs?
+For performance and responsivness.
+	Explain about the Race Condition Problem and ways to solve it in Java
+A race condition occurs when two or more threads can access shared data and they try to change it at the same time.  We solve it by implementing synchronized methods.
+	Explain how we can write reusable non-blocking Java Controls using Threads.
+I don't know this one.
+	Explain about deadlocks, how to detect them and ways to solve the Deadlock Problem
+The thread executing this method, obtains one lock at a time. First, copies the state of the given person object into local variables using one lock. It then, uses these variables to transfer the state to the current object using another lock. This approach mitigated deadlocks by removing lock overlapping.
